@@ -1,14 +1,13 @@
-About:
+### About:
+This script is used to query bunch of IPs for getting geo-location information from internet API provider in one time.
 
-This script is used to query bunch IPs for geo-location information in one time.
 
-
-Note:
+### Note:
 1. You should run this script on Python3 and pre-install some library it needs, like **prettytable**, **json5**.
 2. Please keep all the IPs in the file line by line, otherwise, it could not parse them exactly.
 3. The script will eliminate duplicated IPs which you put in the IP list file.
 
-How to:
+### How to:
 ```
 localhost$ python3 geo-ip.py ips.txt
 +-------------+---------------+-----------------+
